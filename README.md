@@ -4,7 +4,7 @@ Developed by [**Peter Skelsey**](mailto:peter.skelsey@hutton.ac.uk?subject=findO
 
 ## Basic overview
 A standalone desktop app that automates the machine learning workflow to generate the best predictive model for your data, all with the click of a few butons! It's ideal for complete beginners to machine learning, or for anyone who wants fast, accurate results.
-* Upload your own data or use our example data to get started.
+* Upload your own data or use our example data (ionosphere.csv) to get started.
 * autoMLfast automatically cleans and preprocesses your data so it is ready for learning.
 * Choose how many models you want to produce.
 * autoMLfast tries an appropriate subset (depending on your data) of the following models for regression tasks:  
