@@ -12,7 +12,8 @@ A standalone desktop app for developing your own disease risk forecasting tool u
 * View the decision boundary.
 * Make future predictions.
 
-  ### Installation and loading
+
+### Installation and loading
 The app is freely available to download and install on any dekstop PC. To download the app click the green "Code" button and select 'download ZIP' from the dropdown menu. The zipped executable file 'autoMLfast.exe' is a web-based installer (you will need an internet connection) that will install the app and download 'MATLAB Runtime' to your computer. MATLAB Runtime is a completely free execution engine that enables you to run MATLAB applications on computers that do not have a MATLAB license. So not only will you get this app, you will have access to thousands of others! To check for a new release of this app, click on the 'release' button near the top of the page.
 
 NOTE: When the app is loading the splash screen may disappear for a brief interval before the app opens - there is no need to try and load it again, just give it a few seconds. The GUI is 'responsive' and can be scaled to any size, however this will change the layout of the controls. 
