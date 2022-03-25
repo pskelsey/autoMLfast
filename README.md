@@ -7,11 +7,11 @@ A standalone desktop app that automates the machine learning workflow to generat
 * Upload your own data or use our example data to get started.
 * autoMLfast automatically cleans and preprocesses your data so it is ready for learning.
 * Choose how many models you want to produce.
-* autoMLfast *simultaneously* tries an appropriate subset (depending on your data) of the following models for regression tasks:  
+* autoMLfast tries an appropriate subset (depending on your data) of the following models for regression tasks:  
   - Gaussian process, kernel, linear, neural network and support vector machine regression models, various ensemble regression models, and binary decision regression trees.
-* autoMLfast *simultaneously* tries an appropriate subset of the following models for classification tasks:
+* autoMLfast tries an appropriate subset of the following models for classification tasks:
   - disciminant analysis, kernel, linear, naive bayes, neural network, binary decision, and support vector machine classifiers, various ensemble classifiers, and *k*-nearest neighbor models
-* These will be automatically trained and tuned using holdout and *k*-fold cross-validation procedures with either random search, Bayesian or ASHA optimization.
+* These are *simultaneously* trained and tuned using holdout and *k*-fold cross-validation procedures with either random search, Bayesian or ASHA optimization.
 * The most successful model is automatically selected and can be used to make predictions on new data.
 * The process is repeated until you have the number of models you requested.
 * Use the best model to make predictions on new data.
@@ -28,4 +28,4 @@ NOTE: When the app is loading the splash screen may disappear for a brief interv
 A full guide on how to use the app is provided in the [Documentation](https://github.com/pskelsey/autoMLfast/blob/master/documents/documentation.md)
 
 ### License
-The MIT License (MIT) 2020 - Peter Skelsey. For more details, please have a look at the [LICENSE](https://github.com/pskelsey/findOUT/blob/master/LICENSE).
+The MIT License (MIT) 2022 - Peter Skelsey. For more details, please have a look at the [LICENSE](https://github.com/pskelsey/findOUT/blob/master/LICENSE).
