@@ -3,14 +3,13 @@
 Developed by [**Peter Skelsey**](mailto:peter.skelsey@hutton.ac.uk?subject=findOUT), James Hutton Institute, Dundee
 
 ## Basic overview
-A standalone desktop app for developing your own disease risk forecasting tool using unsupervised anomaly detection algorithms.
-* Upload your own data (2 predictor variables) or use our example data.
-* Choose an anomaly detection algorithm.
-* Set the fraction of inliers required.
-* Train and test your algorithm using *k*-fold cross-validation.
-* Save your results for forecast accuracy and frequency of alerts issued.
-* View the decision boundary.
-* Make future predictions.
+A standalone desktop app that fully automates the machine learning workflow to generate the best predictive model for your data - all with the click of a few butons!
+* Upload your own data or use our example data to get started.
+* Your data is cleaned and made ready for use.
+* A wide selection of ML algorithms will be tried on your data.
+* These will be trained and tuned using *k*-fold cross-validation and ASHA optimization.
+* Save your results.
+* Use the best model to make predictions on new data.
 
 
 ### Installation and loading
