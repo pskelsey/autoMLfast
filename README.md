@@ -28,4 +28,4 @@ NOTE: When the app is loading the splash screen may disappear for a brief interv
 A full guide on how to use the app is provided in the [Documentation](https://github.com/pskelsey/autoMLfast/blob/master/documents/documentation.md)
 
 ### License
-The MIT License (MIT) 2022 - Peter Skelsey. For more details, please have a look at the [LICENSE](https://github.com/pskelsey/findOUT/blob/master/LICENSE).
+The MIT License (MIT) 2022 - Peter Skelsey. For more details, please have a look at the [LICENSE](https://github.com/pskelsey/autoMLfast/blob/main/LICENSE).
