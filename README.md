@@ -3,13 +3,16 @@
 Developed by [**Peter Skelsey**](mailto:peter.skelsey@hutton.ac.uk?subject=findOUT), James Hutton Institute, Dundee
 
 ## Basic overview
-A standalone desktop app that fully automates the machine learning workflow to generate the best predictive model for your data - all with the click of a few butons!
+A standalone desktop app that automates the machine learning workflow to generate the best predictive model for your data - all with the click of a few butons! It's ideal for complete beginners to machine learning, or for anyone who wants fast, accurate results.
 * Upload your own data or use our example data to get started.
-* Your data is cleaned and made ready for use.
-* A wide selection of ML algorithms will be tried on your data.
+* Your data is automatically cleaned and made ready for learning.
+* Choose how many models you want to produce.
+* The app will automatically try the following models for regression tasks:  
+  - Gaussian process, kernel, linear, neural network and support vector machine regression models, various ensemble regression models, and decision regression trees.
 * These will be trained and tuned using *k*-fold cross-validation and ASHA optimization.
 * Save your results.
 * Use the best model to make predictions on new data.
+* Fast and user-friendly.
 
 
 ### Installation and loading
