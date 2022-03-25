@@ -16,7 +16,7 @@ A standalone desktop app that automates the machine learning workflow to generat
 * The process is repeated until you have the number of models you requested.
 * Use the best model to make predictions on new data.
 * Save your results.
-* autoMLfast runs computations in parallel on your computer's processors and is fast and user-friendly.
+* autoMLfast runs computations in parallel on your computer's processors and is fast and user-friendly. 
 
 
 ### Installation and loading
