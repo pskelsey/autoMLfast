@@ -3,16 +3,20 @@
 Developed by [**Peter Skelsey**](mailto:peter.skelsey@hutton.ac.uk?subject=findOUT), James Hutton Institute, Dundee
 
 ## Basic overview
-A standalone desktop app that automates the machine learning workflow to generate the best predictive model for your data - all with the click of a few butons! It's ideal for complete beginners to machine learning, or for anyone who wants fast, accurate results.
+A standalone desktop app that automates the machine learning workflow to generate the best predictive model for your data, all with the click of a few butons! It's ideal for complete beginners to machine learning, or for anyone who wants fast, accurate results.
 * Upload your own data or use our example data to get started.
-* Your data is automatically cleaned and made ready for learning.
+* autoMLfast automatically cleans and preprocesses your data so it is ready for learning.
 * Choose how many models you want to produce.
-* The app will automatically try the following models for regression tasks:  
-  - Gaussian process, kernel, linear, neural network and support vector machine regression models, various ensemble regression models, and decision regression trees.
-* These will be trained and tuned using *k*-fold cross-validation and ASHA optimization.
-* Save your results.
+* autoMLfast *simultaneously* tries an appropriate subset (depending on your data) of the following models for regression tasks:  
+  - Gaussian process, kernel, linear, neural network and support vector machine regression models, various ensemble regression models, and binary decision regression trees.
+* autoMLfast *simultaneously* tries an appropriate subset of the following models for classification tasks:
+  - disciminant analysis, kernel, linear, naive bayes, neural network, binary decision, and support vector machine classifiers, various ensemble classifiers, and *k*-nearest neighbor models
+* These will be automatically trained and tuned using holdout and *k*-fold cross-validation procedures with either random search, Bayesian or ASHA optimization.
+* The most successful model is automatically selected and can be used to make predictions on new data.
+* The process is repeated until you have the number of models you requested.
 * Use the best model to make predictions on new data.
-* Fast and user-friendly.
+* Save your results.
+* autoMLfast runs computations in parallel on your computer's processors and is fast and user-friendly.
 
 
 ### Installation and loading
