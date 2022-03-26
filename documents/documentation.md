@@ -4,20 +4,7 @@ Developed by [**Peter Skelsey**](mailto:peter.skelsey@hutton.ac.uk?subject=findO
 
 # USER GUIDE
 
-## Table of Contents
-* [Background](#background)
-* [Basic operation](#basic-operation)
-* [Methods](#methods)
-
-  
-  
-## Background
-autoMLfast is ... 
-
-## Basic operation
-*Buttons*: Click the button.  
-*Spinner*: Click the up or down arrow to increase / decrease the value.  
-*Radio buttons*: Click to select an option.  
+Ass you use the app, certain control options will be 'greyed out' and unavailable. This is to ensure conflicting choices are not made. To start, click the 'Load' button to browse for and upload your datafile. This must be a .csv / .xls / .xlsx file with the variables in columns. See the included datafile 'ionosphere.csv' for an example. Empty cells will be treated as missing data, i.e., not as zero. Rows containing missing data for any variable will be removed from your dataset. Columns containing text, symbols or alphanumeric values will be treated as categorical variables, with the number of discrete categories or levels fixed at the number of unique values. Similarly, columns containing mixed data types (e.g., some numeric cells and some text cells) will be treated as categorical, so make sure to remove any unnecessary text from individual cells, such as 'missing data' or 'undefined'. Best practice is to always recored a zero as 0 and any missing data should be left as a blank cell. Click the 'Prepare data' button to inform the app of key information regarding your data. This will open a separate 'Data Preparation Dialgue Box'. Use the 'Response variable' drop down list to select the variable you would like to predict. The 'Predictor table' below lists all the other variables in your dataset and gives their data type and range. Use the 'Include' check boxes to select which variables you would like to include as predictors in your models, or click the 'Include all' button. Use the 'Categorical' check boxes to identify which of your variables should be treated as categorical, or click the 'All categorical' button. Any variables with cells containing text / symbols / alphanumeric values will be fixed as categorical and you will not be able to uncheck them. Select how many models you would like to produce using the 'Number of models' spinner. If your predictor variables have large differences in range you may want to scale them using either the 'Z-score' or 'MinMax' radio buttons. Z-score standardizes your data to standard scale whereas MinMax normalization rescales your variables to the range [0,1]. Click the 'Start session' button to close the Data Preparation Dialogue Box and return to the main app, or click 'Cancel' at any time.
 
 Note: Certain options may be 'greyed out' and unavailable to ensure conflicting choices are not made, e.g., you cannot hit the Run button until you have used the Load button to upload your data.
 
