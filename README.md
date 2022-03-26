@@ -1,4 +1,4 @@
-![autoMLfast_logo_small](https://user-images.githubusercontent.com/32124230/160170864-de75e2b0-b587-425a-92c2-779460be097b.png)
+![autoMLfast_logo_small](https://user-images.githubusercontent.com/32124230/160239038-1f3d9f56-7974-4ffa-9221-59dd458de6aa.png)
 
 Developed by [**Peter Skelsey**](mailto:peter.skelsey@hutton.ac.uk?subject=findOUT), James Hutton Institute, Dundee
 
