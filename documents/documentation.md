@@ -12,14 +12,6 @@ On the app, use the 'Classification / Regression' switch to fit either classifie
 
 At this point you can now save your results. Click the 'Save results' button to name your file and browse for a location to save. Results are saved in an excel file with separate sheets for the 'Successful learners' and 'test results' tables, and a third sheet containing the hold-out test set together with the predicted values of the overall best model. The overall best model is determined using the sum of squared errors (sse) for regression tasks, and the 'balanced accuracy' (accBal) for classification tasks. 
 
-If you would like to use the overall best model to make predictions on a new dataset, click the 'Load new data' button. The new dataset must contain the same variables as the dataset used to produce the model, and they must be arranged in the same columns. Use the 'Predict' button to apply your model to the new data. Predictive performance is indicated in the table below. The 'Save results' button will save 
+If you would like to use the overall best model to make predictions on a new dataset, click the 'Load new data' button. The new dataset must contain the same variables as the dataset used to produce the model, and they must be arranged in the same columns. Use the 'Predict' button to apply your model to the new data. Predictive performance is indicated in the table below. The 'Save results' button will save the new dataset together with the predicted values of the overall best model. 
 
-match the dataset used to prouduce the model, in terms of the number of variables and their positions in the datafile. 
-80% of your data will be used for training and tuning the various learners. For datasets with less than 10,000 rows, the app uses Bayesian optimization to select models and their hyperparameter values, and for larger datasets ASHA optimization is used. Hyparameters are settings that affect the architecture of the learner and they cannot be learned from the data; finding their optimal values is called tuning. Optimization uses *k*-fold cross-validation to produce robst results. After optimization is complete, the app returns the model, retrained on the entire training data set, that is expected to best predict the responses for new data.  
-
-, and 20%  will be held-out as a separate dataset to test the performance of the final models. 
-
-Training and tuning uses k-fold cross-validation, which randomly splits your data into non-overlapping samples, with different portions used for training and tuning  
-
-## Methods
-This is for more experienced users, or for those who need to report ...... 
+An example dataset containing the famous ionosphere data is provided. In the Data Preparation Dialog Box, select the variable 'class' as the response variable and include all other variables as predictors. These are all continuous variables so do not check any as categorical. Back on the main app, select 'Classification' as the learning task. The app performs very well on these data, producing models that are 95% accurate or more.
