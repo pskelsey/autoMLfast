@@ -11,7 +11,7 @@ A standalone desktop app that automates the machine learning workflow to generat
   - Gaussian process regression models, Kernel regression models, Linear regression models, Neural network regression models, Support vector machine regression models, Binary decision regression trees, and various Ensemble regression models.
 * autoMLfast tries an appropriate subset of the following models for classification tasks:
   - Discriminant analysis classifiers, Kernel classification models, *k*-nearest neighbor models, Linear classification models, Naive Bayes classifiers, Neural network classifiers, Support vector machine classifiers, Binary decision classification trees, and various Ensemble classification models.
-* These are *simultaneously* trained and tuned using *k*-fold cross-validation procedure with either random search or ASHA optimization.
+* These are *simultaneously* trained and tuned using a *k*-fold cross-validation procedure with either random search or ASHA optimization.
 * The most successful model is automatically selected.
 * The process is repeated until you have the number of models you requested.
 * Use the overall best model to make predictions on new data.
